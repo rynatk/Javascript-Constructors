@@ -112,7 +112,6 @@ var KeepSecret = function(secret) {
   var secret = secret;
 
   KeepSecret.prototype.squeal = function() {
-  //this.squeal = function() { ...(SAME AS THIS)
     return secret;
   };
 };
